@@ -447,7 +447,9 @@ const toggle = (form) => {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   p {
-    color: black;
+    color: transparent;
+    -webkit-text-stroke: 2px #FFD700; /* 金黄色描边 */
+    font-weight: 800;
     font-size: 50px;
     line-height: 120px;
   }
