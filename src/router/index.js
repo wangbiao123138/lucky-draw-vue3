@@ -1,16 +1,17 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
-
-// 导入您的路由组件
-// 例如: import Home from '../views/Home.vue';
+import { createRouter, createWebHashHistory } from 'vue-router'
+import App from '@/App.vue'
 
 const routes = [
-  // 您的路由配置
-  // 例如: { path: '/', name: 'Home', component: Home }
-];
+  {
+    path: '/',
+    name: 'Home',
+    component: App
+  }
+]
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes
-});
+})
 
-export default router;
+export default router
