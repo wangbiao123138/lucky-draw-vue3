@@ -477,7 +477,7 @@ const toggle = (form) => {
       align-items: center;
     }
     &.numberOver::before {
-      content: attr(data-id);
+      /*content: attr(data-id);*/
       width: 30px;
       height: 22px;
       line-height: 22px;
