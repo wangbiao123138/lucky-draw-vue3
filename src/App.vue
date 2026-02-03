@@ -373,7 +373,7 @@ const toggle = (form) => {
 #root {
   height: 100%;
   position: relative;
-  background-image: url('./assets/bg1.jpg');
+  background-image: url('./assets/bg2.jpg');
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
