@@ -447,7 +447,7 @@ const toggle = (form) => {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   p {
-    color: red;
+    color: black;
     font-size: 50px;
     line-height: 120px;
   }
@@ -457,7 +457,7 @@ const toggle = (form) => {
     flex-wrap: wrap;
   }
   .itemres {
-    background: #fff;
+    /*background: #fff;*/
     width: 160px;
     height: 160px;
     border-radius: 4px;
