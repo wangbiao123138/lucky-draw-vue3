@@ -303,7 +303,7 @@ const startTagCanvas = () => {
     textColour: null,
     initial: speed(),
     dragControl: 1,
-    textHeight: 20,
+    textHeight: 40,
     noSelect: true,
     lock: 'xy',
   });
