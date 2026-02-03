@@ -457,7 +457,7 @@ const toggle = (form) => {
     flex-wrap: wrap;
   }
   .itemres {
-    /*background: #fff;*/
+    background: rgba(255, 255, 255, 0.6); /* 白色半透明 */
     width: 160px;
     height: 160px;
     border-radius: 4px;
@@ -475,7 +475,6 @@ const toggle = (form) => {
       display: flex;
       justify-content: center;
       align-items: center;
-      background: rgba(255, 255, 255, 0.6); /* 白色半透明 */
     }
     &.numberOver::before {
       /*content: attr(data-id);*/
