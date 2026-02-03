@@ -27,7 +27,7 @@
     </div>
     <transition name="bounce">
       <div id="resbox" v-show="showRes">
-        <p @click="showRes = false">{{ categoryName }}抽奖结果：</p>
+        <p @click="showRes = false">{{ categoryName }}抽奖结果</p>
         <div class="container">
           <span
             v-for="item in resArr"
@@ -447,11 +447,14 @@ const toggle = (form) => {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   p {
-    color: transparent;
-    -webkit-text-stroke: 2px #FFD700; /* 金黄色描边 */
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 120px;
+     color: transparent;
+  -webkit-text-stroke: 2px #FFD700;
+  font-weight: 800;
+  text-shadow:
+    0 0 6px rgba(255, 215, 0, 0.6),
+    0 0 12px rgba(255, 215, 0, 0.4);
+    font-size: 100px;
+    line-height: 200px;
   }
   .container {
     display: flex;
