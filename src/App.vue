@@ -452,7 +452,7 @@ const toggle = (form) => {
   font-weight: 800;
   text-shadow:
     0 0 6px rgba(255, 215, 0, 0.6),
-    0 0 12px rgba(255, 215, 0, 0.4);
+    0 0 12px rgba(255, 215, 0, 0.3);
     font-size: 100px;
     line-height: 200px;
   }
