@@ -476,9 +476,6 @@ const toggle = (form) => {
       justify-content: center;
       align-items: center;
       background: rgba(255, 255, 255, 0.6); /* 白色半透明 */
-      padding: 8px 14px;
-      border-radius: 6px;
-      color: #000; /* 字体黑色 */
     }
     &.numberOver::before {
       /*content: attr(data-id);*/
